@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="css/assets/css/normalize.css">
+    <style>
+
+        body>div{
+            width:100%;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            border: 2px solid black;
+        }
+        body>div>div{
+            border: 1px solid black;
+        }
+        body>div>div:nth-child(1){
+            background-color: aquamarine;
+        }
+        body>div>div:nth-child(2){
+            background-color: #0be104;
+        }
+        body>div>div:nth-child(3){
+            background-color: #ff7ffd;
+        }
+        body>div>div:nth-child(4){
+            background-color: #d0ba31;
+        }
+        body>div>div:nth-child(5){
+            background-color: #e0172f;
+        }
+        body>div>div:nth-child(6){
+            background-color: #ffffff;
+        }
+        body>div>div:nth-child(7){
+            background-color: #30125d;
+        }
+        body>div>div:nth-child(8){
+            background-color: #c21a80;
+        }
+        body>div>div:nth-child(9){
+          background-color: #67775e;
+
+        }
+        body>div>div:nth-child(10){
+          background-color: #da162d;
+
+        }
+        body>div>div:nth-child(11){
+          background-color: aquamarine;
+        }
+        body>div>div:nth-child(12){
+          background-color: #38ff00;}
+
+
+    </style>
+</head>
+<body>
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>
