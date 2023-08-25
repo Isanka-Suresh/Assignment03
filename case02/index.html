@@ -5,11 +5,27 @@
     <title>case02</title>
     <link rel="stylesheet" href="/normalize.css">
   <style>
+    header{
+          height: 45px;
+          position: relative;
+          box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+          margin-bottom: 4px;
+    }
+
+    header img{
+        position: absolute;
+    }
 
     #navbar li{
         float: right;
         list-style: none;
-        margin: 10px 15px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    #navbar ul>li:nth-child(1){
+        margin-right: 15px;
+        color: red;
     }
 
     #navbar ul{
@@ -30,13 +46,15 @@
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
-        display: flex;
+        position: relative;
     }
 
     .sidebar {
         background-color: #4c0181;
         color: #fff;
-        width: 10%;
+        width: 14%;
+        position: absolute;
+        height: 100%;
     }
 
     .sidebar a {
@@ -48,12 +66,15 @@
     }
 
     #text {
-        padding-left: 20px;
-        flex: 1;
+        padding-left: 15%;
+        overflow: auto;
     }
 
     #text img{
         margin-left: 20px;
+    }
+    p{
+        margin-top: 0;
     }
 
     footer{
@@ -70,7 +91,7 @@
 <body>
   <header>
     <nav id="navbar">
-      <img src="/case02/assets/Ijse_logo.png" alt="IJSE" height="4%" width="5%" id="icon">
+      <img src="/case02/assets/Ijse_logo.png" alt="IJSE" height="32px" width="72px" id="icon">
           <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Services</a></li>
@@ -80,16 +101,18 @@
     </nav>
   </header>
   <section id="content">
-  <div class="sidebar">
+    <aside>
+      <nav class="sidebar">
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Contact</a>
-  </div>
+      </nav>
+    </aside>
     <div id="text">
-        <img src="https://tenor.com/view/luffy-child-monkey-d-luffy-anime-one-piece-gif-17684887.gif" alt="" width="30%" height="15%">
-        <img src="https://tenor.com/view/luffy-child-monkey-d-luffy-anime-one-piece-gif-17684887.gif" alt="" width="30%" height="15%">
-        <img src="https://tenor.com/view/luffy-child-monkey-d-luffy-anime-one-piece-gif-17684887.gif" alt="" width="30%" height="15%">
+        <img src="https://media.giphy.com/media/YRThiAEEYVNtC5acLO/giphy.gif" alt="" width="30%" height="15%">
+        <img src="https://media.giphy.com/media/YRThiAEEYVNtC5acLO/giphy.gif" alt="" width="30%" height="15%">
+        <img src="https://media.giphy.com/media/YRThiAEEYVNtC5acLO/giphy.gif" alt="" width="30%" height="15%">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
@@ -222,50 +245,7 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
         </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores facere nulla ratione.
-        </p>
+
     </div>
   </section>
 <footer>

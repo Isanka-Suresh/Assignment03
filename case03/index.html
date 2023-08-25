@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 03</title>
+    <link rel="stylesheet" href="/normalize.css">
+
+    <style>
+      section>div{
+        background-color: purple;
+        aspect-ratio: 1/1;
+        width: 185px;
+        border-radius: 50%;
+        margin-top: 280px;
+        margin-bottom: 280px;
+        margin-left: 3px;
+        position: relative;
+      }
+
+      .texts{
+          color: white;
+          text-align: center;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+      }
+
+      section{
+        position: absolute;
+        width: fit-content;
+        right: 0;
+        left: 0;
+        margin: auto;
+      }
+      #frame{
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        width: 200px;
+        background: transparent;
+        border: 10px solid red;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+      }
+
+      #frame>div{
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+        width: calc(100% - 18px);
+        background: transparent;
+        border: 10px solid gray;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+      }
+    </style>
+</head>
+<body>
+<div id="frame">
+  <div></div>
+</div>
+<section>
+  <div><div class="texts">Hello</div></div>
+  <div><div div class="texts">Welcome To</div></div>
+  <div><div div class="texts">Institute of Software Engineering</div></div>
+</section>
+</body>
+</html>
