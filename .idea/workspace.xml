@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad73797c-2b69-4496-8eb2-0019d47ec467" name="Changes" comment="implement case 02">
-      <change afterPath="$PROJECT_DIR$/case03/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case04/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case06/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/IJSE/GitExamples/Assignment03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IJSE\assingment\4.IT\Assignment03\case02\assets" />
@@ -72,6 +69,7 @@
       <workItem from="1692161650514" duration="159000" />
       <workItem from="1692413236342" duration="17930000" />
       <workItem from="1692444251847" duration="427000" />
+      <workItem from="1699818549310" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="implement case 01">
       <option name="closed" value="true" />
